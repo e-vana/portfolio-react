@@ -10,12 +10,12 @@ function ImageCard(props) {
     <div className='container' style={styles}>
       <div className="image-container">
         <div className="image-wrapper">
-          <img src={props.url}></img>
+          <img src={props.url} alt={props.alt1}></img>
           {
-            props.url2 && <img src={props.url2}></img>
+            props.url2 && <img src={props.url2} alt={props.alt2}></img>
           }
           {
-            props.url3 && <img src={props.url3}></img>
+            props.url3 && <img src={props.url3} alt={props.alt3}></img>
           }
         </div>
       </div>
