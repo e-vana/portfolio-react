@@ -48,6 +48,10 @@
   padding-bottom: 50px;
 }
 
+.ui-container {
+  color: rgb(225, 228, 232);
+  padding-bottom: 50px;
+}
 
 .content-container {
   padding: 0% 20%;

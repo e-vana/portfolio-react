@@ -19,7 +19,7 @@ function Home() {
       image: `/images/vuelogin.png`,
       github: `https://github.com/e-vana/vue-login-template-public`,
       alt: `Vue Login Splashpage`
-    }
+    },
   ]
 
 
@@ -32,7 +32,7 @@ function Home() {
           <div className="button-bar">
             <Badge backgroundColor={`var(--blue)`} color={`white`} text={`about`} scrollTo={'about'}></Badge>
             <Badge backgroundColor={`var(--orange)`} color={`white`} text={`projects`} scrollTo={'projects'}></Badge>
-            <Badge backgroundColor={`var(--purple)`} color={`white`} text={`UI`}></Badge>
+            <Badge backgroundColor={`var(--purple)`} color={`white`} text={`UI`} scrollTo={'ui'}></Badge>
           </div>
         </div>
       </div>
@@ -48,6 +48,10 @@ function Home() {
           {projects.map((e) => {
             return <ProjectCard title={e.title} para1={e.para1} para2={e.para2} image={e.image} github={e.github} alt={e.alt}></ProjectCard>
           })}
+        </div>
+        <div className="ui-container" id="ui">
+          <h1>UI & Figma Design</h1>
+          <p>Want to see some UI mockups / Figma sketches I've created? <a href="https://imgur.com/a/f9x30jA">Check it out here</a></p>
         </div>
       </div>
 
