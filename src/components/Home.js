@@ -9,14 +9,16 @@ function Home() {
       para1: `I built this application as a proof of concept to monitor the used classified sections of the Guitar Center website.  They don't have alerts set up for notifiying users for items at certain price ranges, so I thought it would be an interesting idea to build out.`,
       para2: `This project uses Puppeteer to scrape the website, ExpressJS for an API and scraping logic and MongoDB for a database.  The frontend is a small UI built out in VueJS using the Vue Router and Vuex.`,
       image: `/images/gcWatcher.gif`,
-      github: `https://github.com/e-vana/GC-Scraper`
+      github: `https://github.com/e-vana/GC-Scraper`,
+      alt: `Guitar Center Scraper GIF`
     },
     {
       title: 'Vue Login',
       para1: `This application is a login & authentication system.  Users can register accounts, login, get a token to validate other requests, reset their passwords, and get email notifications for certain tasks.`,
       para2: `This project is build in ExpressJS, Vue and MongoDB.  It utilizes JSON webtoken for authentication, bootstrap for styling and mailjet to send emails.`,
       image: `/images/vuelogin.png`,
-      github: `https://github.com/e-vana/vue-login-template-public`
+      github: `https://github.com/e-vana/vue-login-template-public`,
+      alt: `Vue Login Splashpage`
     }
   ]
 
@@ -44,7 +46,7 @@ function Home() {
         <div className="projects-container" id="projects">
           <h1>Projects</h1>
           {projects.map((e) => {
-            return <ProjectCard title={e.title} para1={e.para1} para2={e.para2} image={e.image} github={e.github}></ProjectCard>
+            return <ProjectCard title={e.title} para1={e.para1} para2={e.para2} image={e.image} github={e.github} alt={e.alt}></ProjectCard>
           })}
         </div>
       </div>
