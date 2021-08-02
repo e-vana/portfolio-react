@@ -1,8 +1,7 @@
-.section-title {
-  text-align: center;
-  font-weight: 200;
-  background-color: rgb(31, 31, 31);
-  color: white;
-  margin: 0px;
-  padding: 20px;
+:root {
+  --main-bg: #24292E;
+  --main-bg-lighter: #2B3036;
+  --orange: #F9695F;
+  --purple: #B392F0;
+  --blue: #5aadce;
 }

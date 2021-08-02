@@ -1,11 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
 body {
-  margin: 0;
   font-family: 'Tajawal', sans-serif;
+  font-size: 18px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+a {
+  color: var(--purple);
+  font-weight: bold;
+  font-size: 20px;
 }

@@ -1,6 +1,4 @@
-import ImageCard from './ImageCard';
-import Home from './Home';
-import About from './About';
+import Home from './components/Home'
 import './App.css';
 
 const images = [
@@ -14,12 +12,6 @@ const images = [
     alt2: 'Morel Menu Figma Sketch',
     alt3: 'Morel Map Figma Sketch'
   },
-  // {
-  //   url: '/images/RecipeSite.png',
-  //   backgroundColor: '',
-  //   backgroundHighlight: '',
-  //   alt1: ''
-  // },
   {
     url: '/images/LANLogo.svg',
     backgroundColor: '#8B91AD', 
@@ -57,17 +49,6 @@ function App() {
   return (
     <div className="App">
       <Home></Home>
-      <h1 className="section-title">About</h1>
-      <About></About>
-      <h1 className="section-title">Figma Sketches / UI </h1>
-      {images.map((image) => {
-        return(
-          <div>
-            <ImageCard url={image.url} url2={image.url2} url3={image.url3} backgroundColor={image.backgroundColor} backgroundHighlight={image.backgroundHighlight}></ImageCard>
-          </div>
-        )
-      })}
-
     </div>
   );
 }

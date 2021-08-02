@@ -1,0 +1,11 @@
+.badge {
+  padding: 5px 10px;
+  text-transform: capitalize;
+  width: 100px;
+  margin: 0px 5px;
+  transition: all .1s ease-in-out;
+}
+.badge:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
