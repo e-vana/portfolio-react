@@ -47,9 +47,6 @@ function Home() {
             return <ProjectCard title={e.title} para1={e.para1} para2={e.para2} image={e.image} github={e.github}></ProjectCard>
           })}
         </div>
-        <div className="ui-container" id="ui">
-          <p></p>
-        </div>
       </div>
 
     </div>
