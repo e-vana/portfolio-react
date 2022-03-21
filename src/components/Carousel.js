@@ -10,27 +10,27 @@ class DemoCarousel extends Component {
             <Carousel width={500} dynamicHeight={true} thumbWidth={40}>
 
                 <div>
-                    <img src="/images/mortgage_sm.png" />
+                    <img src="/images/mortgage_sm.png" alt="mortgage_sm" />
                 </div>
                 <div>
-                    <img src="/images/morel_login.png" />
+                    <img src="/images/morel_login.png" alt="morel_login" />
                 </div>
                 <div>
-                    <img src="/images/coffee_404.png" />
-                </div>
-
-                <div>
-                    <img src="/images/lan_logo.png" />
-                </div>
-                <div>
-                    <img src="/images/meal_manager.png" />
+                    <img src="/images/coffee_404.png" alt="coffee_404" />
                 </div>
 
                 <div>
-                    <img src="/images/pedal.png" />
+                    <img src="/images/lan_logo.png" alt="lan_logo" />
                 </div>
                 <div>
-                    <img src="/images/grandcanyon.png" />
+                    <img src="/images/meal_manager.png" alt="meal_manager" />
+                </div>
+
+                <div>
+                    <img src="/images/pedal.png" alt="pedal" />
+                </div>
+                <div>
+                    <img src="/images/grandcanyon.png" alt="grandcanyon" />
                 </div>
             </Carousel>
           </div>
