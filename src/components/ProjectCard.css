@@ -1,9 +1,15 @@
 .project-card-container {
   background-color: rgba(255, 255, 255, 0.062);
-  padding: 20px;
-  margin: 20px 0px;
+  padding: 30px;
+  margin: 20px 0px 30px 0px;
 }
 img {
   width: 100%;
   object-fit: cover;
+}
+
+h3 {
+  color: var(--purple);
+  margin: 10px 0px 20px 0px;
+  font-style: italic;
 }
